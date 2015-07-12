@@ -13,16 +13,14 @@ per_page: 3
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      %a.navbar-brand.page-scroll{:href => "#page-top"} Start Bootstrap
+      %a.navbar-brand.page-scroll{:href => "#page-top"}
     / Collect the nav links, forms, and other content for toggling
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-left
+        %img.brand{:alt => "Image", :src => "/assets/images/logo-name.svg"}/
       %ul.nav.navbar-nav.navbar-right
         %li
-          %a.page-scroll{:href => "#about"} About
-        %li
-          %a.page-scroll{:href => "#services"} Services
-        %li
-          %a.page-scroll{:href => "#portfolio"} Portfolio
+          %a.page-scroll{:href => "#features"} Features
         %li
           %a.page-scroll{:href => "#contact"} Contact
     / /.navbar-collapse
@@ -42,7 +40,7 @@ per_page: 3
         %h2.section-heading We've got what you need!
         %hr.light
           %p.text-faded Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
-          %a.btn.btn-default.btn-xl{:href => "#"} Get Started!
+          %a.btn.btn-default.btn-xl{:href => "#page-top"} Get Started!
 %section#services
   .container
     .row

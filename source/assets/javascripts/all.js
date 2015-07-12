@@ -5,9 +5,7 @@
 //Bootstrap
 //= require bootstrap-sass-official/assets/javascripts/bootstrap.js
 
-//= require jquery.fittext
-//= require wow.min
-//= require app
+//= require lionbox
 //= require animateheader
 //= require classie
 //= require jquery.easing.min

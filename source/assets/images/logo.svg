@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261 51" enable-background="new 0 0 261 51"><text transform="matrix(1.073 0 0 1 3.809 45.976)"><tspan x="0" y="0" font-family="'Georgia'" font-size="55.432">zink</tspan><tspan x="103.3" y="0" font-family="'Raleway-Thin'" font-size="52.352">notes</tspan></text></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="92px" height="77px" viewBox="0 0 92 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-327.000000, -475.000000)">
+            <g id="logo" sketch:type="MSLayerGroup" transform="translate(327.000000, 475.000000)">
+                <path d="M0.332802832,76.2601367 L44.5560458,0.625384361 L91.8358953,0.625384361 L47.482584,76.2601367 L0.332802832,76.2601367 Z" id="zink-copy" fill="#00364A" sketch:type="MSShapeGroup"></path>
+                <g id="small" sketch:type="MSShapeGroup">
+                    <path d="M0.332802832,54.0184469 L0.332802832,0.625384361 L31.6142438,0.625384361 L0.332802832,54.0184469 Z" id="zink" fill="#FF9A00"></path>
+                    <path d="M60.5544543,76.2601367 L60.5544543,22.8670742 L91.8358953,22.8670742 L60.5544543,76.2601367 Z" id="zink-copy-6" fill="#424242" transform="translate(76.195175, 49.563605) rotate(-180.000000) translate(-76.195175, -49.563605) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
