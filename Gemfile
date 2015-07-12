@@ -2,13 +2,16 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "3.2.2"
+gem "middleman", "~> 3.3.12"
 
 # Live-reloading plugin
 gem "middleman-livereload"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
+
+#Font-Awesome
+gem "font-awesome-rails", "~> 4.3.0.0"
 
 # Cross-templating language block fix for Ruby 1.8
 platforms :mri_18 do
