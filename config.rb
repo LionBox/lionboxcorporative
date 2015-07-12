@@ -5,12 +5,8 @@
 # Change Compass configuration
 compass_config do |config|
   # Require any additional compass plugins here.
-
-  # TODO: PICKFRAMEWORK: Choose the one you want, and comment out the other one
-  # Foundation
-  config.add_import_path "bower_components/foundation/scss"
   # Bootstrap
-  # config.add_import_path "bower_components/bootstrap-sass-official/assets"
+  config.add_import_path "bower_components/bootstrap-sass-official/assets"
 
   # Set this to the root of your project when deployed:
   config.http_path = "/"
@@ -19,6 +15,7 @@ compass_config do |config|
   config.images_dir = "assets/images"
   config.fonts_dir = "assets/fonts"
   config.javascripts_dir = "assets/javascripts"
+  # config.cache = true
 end
 
 ###
@@ -49,6 +46,15 @@ end
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+# Reload the browser automatically whenever files change
+activate :livereload
+
+# Pretty URLs - http://middlemanapp.com/basics/pretty-urls/
+# activate :directory_indexes
+
+#Use relative URLs   
+activate :relative_assets
+
 # Methods defined in the helpers block are available in templates
 helpers do
   def some_helper
@@ -69,13 +75,11 @@ after_configuration do
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
-activate :directory_indexes
-set :build_dir, "tmp"
-
+set :build_dir, "build"
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
-activate :livereload
+
 
 # Build-specific configuration
 configure :build do
